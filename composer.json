@@ -1,7 +1,7 @@
 {
   "name": "maatify/open-ssl",
   "description": "Official PHP library for maatify.dev OpenSSL handler, known by our team",
-  "version": "1.0.0",
+  "version": "1.0.0002",
   "type": "library",
   "keywords": [
     "PHP",
@@ -44,7 +44,8 @@
     }
   },
   "require": {
-    "php": ">=8.0"
+    "php": ">=8.0",
+    "ext-openssl": "*"
   },
   "autoload": {
     "psr-4": {
